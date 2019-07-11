@@ -41,7 +41,11 @@ Team Members: Yuan-Hung Chien, Nick Adams, Jeff Simonson
   * cre_stats_labor3.csv
 
 * final csv file for create sql database:
-  * CRE Data.csv
+  * CRE Data2.csv
+  * Labor Data2.csv
 
 * sql file to create Data base:
   * ETL_Sql_Merge.sql
+
+* sql scheme:
+  * QuickDBD-ETL Schema.png
