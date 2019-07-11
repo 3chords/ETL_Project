@@ -16,12 +16,12 @@ Team Members: Yuan-Hung Chien, Nick Adams, Jeff Simonson
     * We may need to identify any columns where there is text and clean it out (e.g. % or commas)
     * We need to create a new 'year' column in the final table
     * We will develop a master table with all metrics
-    * We will develop sub-tables or views with key grouped metrics for easier reporting.
+    * We will develop two tables for future query development
 
   * Process thoughts:
     * We will probably need to use a combination of text-to-columns and concatenation like operations on each table independently first to enable the geography key to match.
 
-# Files used the project
+# Files used in the project
 * Source Data:
   * cre_stats_data.csv
   * labor_data.csv
@@ -33,5 +33,8 @@ Team Members: Yuan-Hung Chien, Nick Adams, Jeff Simonson
 * data generated from new_cre_stats_data2.csv and labor_data.csv by using excel:
   * new_cre_stats_final_labor_columns.csv
 
-* clean-up csv data generating by Pandas:\
+* clean-up csv data generating by Pandas:
+  * cre_stats_labor2.csv
+
+* final cleanup-data(cre_stats_labor2.csv droppinh columns: 'ID', 'Yr Lookup', 'Slice', 'Unnamed: 59'):
   * cre_stats_labor3.csv
