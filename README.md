@@ -17,6 +17,7 @@ Team Members: Yuan-Hung Chien, Nick Adams, Jeff Simonson
     * We need to create a new 'year' column in the final table
     * We will develop a master table with all metrics
     * We will develop two tables for future query development
+    
 
   * Process thoughts:
     * We will probably need to use a combination of text-to-columns and concatenation like operations on each table independently first to enable the geography key to match.
@@ -38,3 +39,9 @@ Team Members: Yuan-Hung Chien, Nick Adams, Jeff Simonson
 
 * final cleanup-data(cre_stats_labor2.csv droppinh columns: 'ID', 'Yr Lookup', 'Slice', 'Unnamed: 59'):
   * cre_stats_labor3.csv
+
+* final csv file for create sql database:
+  * CRE Data.csv
+
+* sql file to create Data base:
+  * ETL_Sql_Merge.sql
